@@ -1,12 +1,13 @@
 /* custome css for bakery page */
 @import url(http://fonts.googleapis.com/css?family=Signika);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
-a, a:hover{
+#menu-box{
+	position: relative;
+}
+a{
 	text-decoration: none !important;
 }
-a:active
-	color: #fff;
-}
+
 h3{
 	color:#A52174;
 }
@@ -16,6 +17,7 @@ h4{
 h3, h4, h5{
 	font-family: 'Signika', sans-serif;
 }
+
 /* breadcrumb */
 .lead{
 	font-family: 'Lobster', cursive;
@@ -88,3 +90,4 @@ h3, h4, h5{
 .label-info:hover{
 	color:#20437F;
 }
+
